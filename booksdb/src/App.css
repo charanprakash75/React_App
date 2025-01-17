@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: purple;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.main {
+  width: 90%;
+  margin: auto;
+  gap: 10px;
+}
+
+.box {
+  box-shadow: 1px 1px 3px 4px #eee;
+  position: relative;
+  margin-top: 20px;
+}
+
+ul.books-list {
+  padding: 10px;
+  margin: 0px;
+  list-style: none;
+}
+
+.book {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.book img {
+  width: 50px;
+}
+
+.book h3 {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.main > div {
+  flex: 1;
+}
+
+.books-summary {
+  background-color: #eee;
+  padding: 10px;
+}
+
+.books-summary h3 {
+  margin: 0px;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.books-read-list {
+  margin: 0px;
+  list-style: none;
+  padding: 10px;
+}
+
+.books-read-list img {
+  width: 50px;
+}
+
+.books-read-list h3 {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.books-read-list li {
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.btn-toggle {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 0px;
+}
+
+.book-details {
+  padding: 10px;
+  gap: 10px;
+}
+
+.book-details h2 {
+  margin: 0px;
+}
+
+.book-details ul {
+  padding: 0px;
+  list-style: none;
+}
+
+.align-items-center {
+  align-items: center;
+}
